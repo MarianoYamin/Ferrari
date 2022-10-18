@@ -1,0 +1,203 @@
+/*TIPOGRAFÍA*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/*Variables*/
+
+:root {
+    /*Palette*/
+
+    --one-color: #181818;
+    --two-color: #2C2B27;
+    --three-color: #FF0000;
+    --four-color: #FFFF00;
+    --five-color: #FFFFFF;
+
+    /*Font-sizes*/
+
+    --text-xxl: 4.8em;
+    --text-xl: 3.6em;
+    --text-lg: 3.2em;
+    --text-md: 2.0em;
+    --text-sm: 1.0em;
+    --text-xs:  0.9em;
+
+    /*Spacings*/
+
+    --sp-xxl: 12rem;
+    --sp-xl: 8rem;
+    --sp-lg: 5rem;
+    --sp-md: 3.6rem;
+    --sp-sm: 1.2rem;
+    --sp-xs: 0.8rem;
+
+}
+
+/* NORMALIZE*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--five-color);
+    background-color: var(--two-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+    font-size: var(--text-md);
+    text-decoration: none;
+    color: var(--five-color);
+}
+
+p {
+    font-size: 1.6em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 450px;
+}
+
+/* HEADER DEFAULT PARA TODAS LAS PAGINAS */
+
+header {
+    padding: var(--sp-sm);
+    background-color: var(--one-color);
+    height: 10rem;
+}
+
+.navbar_link img {
+    height: 10rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+}
+
+.navbar .navbar_link {
+    min-width: 18rem;
+    max-width: 18rem;
+    height: 10rem;
+}
+
+.navbar_mobile {
+    display: none;
+    color: var(--five-color);
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 10rem;
+}
+
+.menu .menu_link {
+    padding: var(--sp-sm);
+    transition: all .3s ease-in-out;
+    color: var(--five-color);
+}
+
+.menu .menu_link:hover {
+    background-color: var(--five-color);
+    color: var(--one-color);
+}
+
+
+
+/* BANNER DEFAULT PARA TODAS LAS PAGINAS*/
+
+#banner img {
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+
+/*HOME*/
+
+
+/*FRASES*/
+
+.enzo_frases {
+    padding: var(--sp-lg);
+}
+
+.frase_1y2 {
+    border-top: 1px solid var(--three-color);
+    text-align: center;
+    padding: var(--sp-xs);
+    font-size: 2.8em;
+}
+
+.title_frase {
+    text-align: center;
+    font-size: 1.6em;
+    padding: var(--sp-lg);
+}
+
+
+/*IMAGENES DE LAS FRASES*/
+
+.imagenes_frase {
+    padding: var(--sp-xs);
+}
+
+
+
+
+/*HISTORIA*/
+
+.historia {
+    padding: var(--sp-sm);
+}
+
+.title_historia {
+    border-top: 1px solid var(--three-color);
+    text-align: center;
+    font-size: 3.0em;
+    padding: var(--sp-xxl);
+}
+
+.parrafo_1 {
+    border-top: 1px solid var(--three-color);
+    text-align: center;
+    padding: var(--sp-xxl);
+    font-size: 1.5em;
+}
+
+.parrafo_2 {
+    border-top: 1px solid var(--three-color);
+    text-align: center;
+    padding: var(--sp-xxl);
+    font-size: 1.5em;
+}
+
+.parrafo_3 {
+    border-top: 1px solid var(--three-color);
+    border-bottom: 1px solid var(--three-color);
+    text-align: center;
+    padding: var(--sp-xxl);
+    font-size: 1.5em;
+}
+
