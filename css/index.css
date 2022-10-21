@@ -1,4 +1,4 @@
-/*TIPOGRAFÍA*/
+/*Tipografía*/
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Roboto:wght@300;400;500;700;900&display=swap');
 
@@ -7,11 +7,11 @@
 :root {
     /*Palette*/
 
-    --one-color: #181818;
-    --two-color: #2C2B27;
-    --three-color: #FF0000;
-    --four-color: #FFFF00;
-    --five-color: #FFFFFF;
+    --grey_dark: #181818;
+    --grey: #2C2B27;
+    --red: #FF0000;
+    --yellow: #FFFF00;
+    --white: #FFFFFF;
 
     /*Font-sizes*/
 
@@ -27,8 +27,8 @@
     --sp-xxl: 12rem;
     --sp-xl: 8rem;
     --sp-lg: 5rem;
-    --sp-md: 3.6rem;
-    --sp-sm: 1.2rem;
+    --sp-md: 3.2rem;
+    --sp-sm: 1.6rem;
     --sp-xs: 0.8rem;
 
 }
@@ -47,8 +47,8 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--five-color);
-    background-color: var(--two-color);
+    color: var(--white);
+    background-color: var(--grey);
 }
 
 ul {
@@ -57,13 +57,17 @@ ul {
 
 a {
     display: inline-block;
-    font-size: var(--text-md);
     text-decoration: none;
-    color: var(--five-color);
+    color: var(--white);
+    font-size: var(--text-md);
 }
 
 p {
     font-size: 1.6em;
+}
+
+img {
+    width: 100%;
 }
 
 .container {
@@ -75,33 +79,21 @@ p {
     max-width: 450px;
 }
 
-/* HEADER DEFAULT PARA TODAS LAS PAGINAS */
+/***HEADER-DEFAULT TODAS LAS PAGINAS***/
 
 header {
     padding: var(--sp-sm);
-    background-color: var(--one-color);
-    height: 10rem;
-}
-
-.navbar_link img {
-    height: 10rem;
+    background-color: var(--grey_dark);
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    height: 10rem;
 }
 
-.navbar .navbar_link {
-    min-width: 18rem;
-    max-width: 18rem;
-    height: 10rem;
-}
-
-.navbar_mobile {
-    display: none;
-    color: var(--five-color);
+.navbar .navbar__link {
+    min-width: 180px;
+    max-width: 180px;
 }
 
 .navbar .menu {
@@ -109,95 +101,126 @@ header {
     gap: 1rem;
     flex-wrap: wrap;
     align-items: center;
-    height: 10rem;
 }
 
-.menu .menu_link {
-    padding: var(--sp-sm);
+.menu .menu__link {
+    padding: var(--sp-xs);
     transition: all .3s ease-in-out;
-    color: var(--five-color);
 }
 
-.menu .menu_link:hover {
-    background-color: var(--five-color);
-    color: var(--one-color);
+.menu .menu__link:hover {
+    background-color: var(--white);
+    color: var(--grey_dark);
 }
+/***BANNER-DEFAULT TODAS LAS PAGINAS***/
 
-
-
-/* BANNER DEFAULT PARA TODAS LAS PAGINAS*/
-
-#banner img {
+#banner {
     display: grid;
     place-items: center;
-    width: 100%;
 }
 
+/***PAGINA:HOME***/
 
-/*HOME*/
-
-
-/*FRASES*/
-
-.enzo_frases {
-    padding: var(--sp-lg);
+.frases {
+    display: flex;
 }
 
-.frase_1y2 {
-    border-top: 1px solid var(--three-color);
+.frases__todas  {
     text-align: center;
-    padding: var(--sp-xs);
-    font-size: 2.8em;
+    font-size: var(--text-md);
+    margin-top: var(--sp-xl);
+    padding-top: var(--sp-xl);
+    border-top: 1px solid var(--red);
 }
 
-.title_frase {
+.title__frases {
     text-align: center;
-    font-size: 1.6em;
-    padding: var(--sp-lg);
+    padding-top: var(--sp-xl);
 }
-
-
-/*IMAGENES DE LAS FRASES*/
-
-.imagenes_frase {
-    padding: var(--sp-xs);
-}
-
-
-
-
-/*HISTORIA*/
 
 .historia {
-    padding: var(--sp-sm);
+    display: flex;
+    padding-top: var(--sp-xl);
 }
 
-.title_historia {
-    border-top: 1px solid var(--three-color);
+.title__historia {
     text-align: center;
-    font-size: 3.0em;
-    padding: var(--sp-xxl);
+    border-top: 1px solid var(--red);
+    margin: var(--sp-xl);
+    padding: var(--sp-xl);
+    font-size: var(--text-md);
 }
 
 .parrafo_1 {
-    border-top: 1px solid var(--three-color);
     text-align: center;
-    padding: var(--sp-xxl);
-    font-size: 1.5em;
+    border-top: 1px solid var(--red);
+    margin: var(--sp-xl);
+    padding: var(--sp-xl);
+    font-size: var(--text-md);
 }
 
 .parrafo_2 {
-    border-top: 1px solid var(--three-color);
     text-align: center;
-    padding: var(--sp-xxl);
-    font-size: 1.5em;
+    border-top: 1px solid var(--red);
+    margin: var(--sp-xl);
+    padding: var(--sp-xl);
+    font-size: var(--text-md);
 }
 
 .parrafo_3 {
-    border-top: 1px solid var(--three-color);
-    border-bottom: 1px solid var(--three-color);
     text-align: center;
-    padding: var(--sp-xxl);
-    font-size: 1.5em;
+    padding-bottom: var(--sp-xl);
+    border-top: 1px solid var(--red);
+    border-bottom: 1px solid var(--red);
+    margin: var(--sp-xl);
+    padding: var(--sp-xl);
+    font-size: var(--text-md);
 }
 
+ /***FOOTER-DEFAULT EN TODAS LAS PAGINAS***/
+
+ .footer {
+    display: flex;
+ }
+
+ .newsletter {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+ }
+
+ .redes__sociales {
+
+ }
+
+ .navbar__footer .menu__footer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: var(--sp-md);
+    padding: var(--sp-md);
+ }
+
+ .menu__footer .menu__link__footer {
+    padding: var(--sp-xs);
+    transition: all .3s ease-in-out;
+}
+
+.menu__footer .menu__link__footer:hover {
+    background-color: var(--white);
+    color: var(--grey_dark);
+}
+
+ .logo__shell {
+    text-align: center;
+    margin: var(--sp-xs);
+    padding: var(--sp-xs);
+ }
+
+ .copyright {
+    text-align: center;
+    margin: var(--sp-md);
+    padding: var(--sp-md);
+ }
