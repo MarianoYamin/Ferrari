@@ -1,0 +1,32 @@
+<section class="serie__especial">
+            <div class="container">
+                <h2 class="title__serie__estandar">SERIE ESPECIAL</h2>
+                <article class="serie__especial__catalogo">
+                    <div class="columna__1">
+                        <div class="logo__autos">
+                            <img class="img__logo__autos" src="" alt="">
+                        </div>
+                        <div class="texto__autos">
+                            <p class="texto__1"></p>
+                            <p class="texto__1"></p>
+                        </div>
+                    </div>
+                    <div class="img__autos">
+                        <img class="img__series__auto" src="" alt="">
+                    </div>
+                </article>
+                <article class="serie__especial__catalogo">
+                    <div class="columna__1">
+                        <div class="logo__autos">
+                            <img class="img__logo__autos" src="" alt="">
+                        </div>
+                        <div class="texto__autos">
+                            <p class="texto__1"></p>
+                            <p class="texto__1"></p>
+                        </div>
+                    </div>
+                    <div class="img__autos">
+                        <img class="img__series__auto" src="" alt="">
+                    </div>
+                </article>
+            </div>

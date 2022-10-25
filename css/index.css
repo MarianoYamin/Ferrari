@@ -92,8 +92,8 @@ header {
 }
 
 .navbar .navbar__link {
-    min-width: 180px;
-    max-width: 180px;
+    min-width: 150px;
+    max-width: 150px;
 }
 
 .navbar .menu {
@@ -181,6 +181,7 @@ header {
 
  .footer {
     display: flex;
+    padding-top: 10em;
  }
 
  .newsletter {
@@ -189,8 +190,34 @@ header {
     justify-content: center;
  }
 
- .redes__sociales {
+ .newsletter__correo {
+    border: 1px solid var(--yellow);
+    background-color: transparent;
+    height: 2.5em;
+    width: 15em;
+ }
 
+ .newsletter__enviar {
+    height: 2.5em;
+    background-color: transparent;
+    border: none;
+    color: var(--white);
+ }
+
+ .title__redes {
+    text-align: center;
+    margin: var(--sp-md);
+    padding: var(--sp-md);
+ }
+
+ .navbar__icons .menu__icons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: var(--sp-md);
+    padding: var(--sp-md);
  }
 
  .navbar__footer .menu__footer {
@@ -224,3 +251,84 @@ header {
     margin: var(--sp-md);
     padding: var(--sp-md);
  }
+
+ /***PAGINA:AUTOS***/
+
+ 
+ /*SERIE ESTANDAR*/
+
+ .serie__estandar {
+    display: flex;
+    flex-direction: row;
+ }
+
+ .title__series {
+    text-align: center;
+    margin-top: var(--sp-xl);
+    font-size: var(--text-lg);
+ }
+
+.serie__estandar__catalogo {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--sp-xl);
+    padding-top: var(--sp-xl);
+    padding-bottom: var(--sp-xl);
+    border-top: 1px solid var(--yellow);
+ }
+
+ .columna__1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 35em;
+    height: 15em;
+ }
+
+ .logo__autos {
+    padding-top: 10em;
+ }
+
+ .img__logo__autos {
+    width: 64em;
+    height: 8.5em;
+ }
+
+ .texto__autos {
+   padding-top: 7em;
+} 
+
+.texto__1 {
+    padding: 2rem;
+}
+
+.img__series__auto {
+    width: 57.2em;
+    height: 37.9em;
+    float: right;
+}
+
+/*SERIE ESPECIAL E ICONICA*/
+
+.serie__especial__iconica {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--white);
+    color: var(--grey_dark);
+}
+
+.serie__especial__iconica__catalogo {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--sp-xl);
+    padding-top: var(--sp-xl);
+    padding-bottom: var(--sp-xl);
+    border-top: 1px solid var(--red);
+}
+
+.img__logo__autos__especial__iconica {
+    width: 44em;
+    height: 8.5em;
+}
+
+
