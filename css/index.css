@@ -193,6 +193,7 @@ header {
  .newsletter__correo {
     border: 1px solid var(--yellow);
     background-color: transparent;
+    color: var(--white);
     height: 2.5em;
     width: 15em;
  }
@@ -208,6 +209,7 @@ header {
     text-align: center;
     margin: var(--sp-md);
     padding: var(--sp-md);
+    color: var(--yellow);
  }
 
  .navbar__icons .menu__icons {
@@ -331,4 +333,8 @@ header {
     height: 8.5em;
 }
 
+
+/***PAGINA:GALERIA***/
+
+/*BOOTSTRAP DE LA PAGINA*/
 
