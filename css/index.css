@@ -337,4 +337,17 @@ header {
 /***PAGINA:GALERIA***/
 
 /*BOOTSTRAP DE LA PAGINA*/
+.container-fluid {
+    padding: var(--sp-xl);
+}
+
+.img__galeria {
+    padding-top: var(--sp-sm);
+}
+
+.title__galeria {
+    text-align: center;
+    margin-top: var(--sp-xl);
+    font-size: var(--text-lg);
+ }
 
