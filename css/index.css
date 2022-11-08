@@ -128,9 +128,10 @@ header {
 .frases__todas  {
     text-align: center;
     font-size: var(--text-md);
+    font-style: oblique;
+    border-top: 0.05em solid var(--red);
     margin-top: var(--sp-xl);
     padding-top: var(--sp-xl);
-    border-top: 1px solid var(--red);
 }
 
 .title__frases {
@@ -145,7 +146,7 @@ header {
 
 .title__historia {
     text-align: center;
-    border-top: 1px solid var(--red);
+    border-top: 0.05em solid var(--red);
     margin: var(--sp-xl);
     padding: var(--sp-xl);
     font-size: var(--text-md);
@@ -153,7 +154,7 @@ header {
 
 .parrafo_1 {
     text-align: center;
-    border-top: 1px solid var(--red);
+    border-top: 0.05em solid var(--red);
     margin: var(--sp-xl);
     padding: var(--sp-xl);
     font-size: var(--text-md);
@@ -161,7 +162,6 @@ header {
 
 .parrafo_2 {
     text-align: center;
-    border-top: 1px solid var(--red);
     margin: var(--sp-xl);
     padding: var(--sp-xl);
     font-size: var(--text-md);
@@ -170,8 +170,7 @@ header {
 .parrafo_3 {
     text-align: center;
     padding-bottom: var(--sp-xl);
-    border-top: 1px solid var(--red);
-    border-bottom: 1px solid var(--red);
+    border-bottom: 0.05em solid var(--red);
     margin: var(--sp-xl);
     padding: var(--sp-xl);
     font-size: var(--text-md);
@@ -191,7 +190,7 @@ header {
  }
 
  .newsletter__correo {
-    border: 1px solid var(--yellow);
+    border: 0.05em solid var(--yellow);
     background-color: transparent;
     color: var(--white);
     height: 2.5em;
@@ -212,23 +211,23 @@ header {
     color: var(--yellow);
  }
 
- .navbar__icons .menu__icons {
+ .navbar__icons  {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 1rem;
     flex-wrap: wrap;
     align-items: center;
-    margin: var(--sp-md);
+    border-bottom: 0.05em solid var(--red);
     padding: var(--sp-md);
  }
 
  .navbar__footer .menu__footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 1rem;
     flex-wrap: wrap;
     align-items: center;
-    margin: var(--sp-md);
+    margin-top: var(--sp-md);
     padding: var(--sp-md);
  }
 
@@ -245,7 +244,7 @@ header {
  .logo__shell {
     text-align: center;
     margin: var(--sp-xs);
-    padding: var(--sp-xs);
+    padding: var(--sp-xs); 
  }
 
  .copyright {
@@ -276,7 +275,7 @@ header {
     margin-top: var(--sp-xl);
     padding-top: var(--sp-xl);
     padding-bottom: var(--sp-xl);
-    border-top: 1px solid var(--yellow);
+    border-top: 0.05em solid var(--yellow);
  }
 
  .columna__1 {
@@ -325,7 +324,7 @@ header {
     margin-top: var(--sp-xl);
     padding-top: var(--sp-xl);
     padding-bottom: var(--sp-xl);
-    border-top: 1px solid var(--red);
+    border-top: 0.05em solid var(--red);
 }
 
 .img__logo__autos__especial__iconica {
@@ -351,3 +350,120 @@ header {
     font-size: var(--text-lg);
  }
 
+ /***PAGINA:SERVICIO***/
+
+ .title__servicio {
+    text-align: center;
+    border-top: 0.05em solid var(--red);
+    margin: var(--sp-xl);
+    padding: var(--sp-xl);
+    font-size: var(--text-md);
+}
+
+.parrafo_1_servicio {
+    text-align: center;
+    border-top: 0.05em solid var(--red);
+    margin: var(--sp-xl);
+    padding: var(--sp-xl);
+    font-size: var(--text-md);
+}
+
+.parrafo_2_servicio {
+    text-align: center;
+    border-bottom: 0.05em solid var(--red);
+    margin: var(--sp-xl);
+    padding: var(--sp-xl);
+    font-size: var(--text-md);
+}
+
+.parrafo_3_servicio {
+    text-align: center;
+    padding-bottom: var(--sp-xl);
+    border-top: 0.05em solid var(--red);
+    margin: var(--sp-xl);
+    padding: var(--sp-xl);
+    font-size: var(--text-md);
+} 
+
+.box__img__servicio {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img__servicio {
+    width: 55em;
+    height: 38em;
+    padding: var(--sp-sm);
+}
+
+.contacto__servicio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 10em;
+    border-bottom: 0.05em solid var(--yellow);
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 3em;
+}
+
+.control-label {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.form-control {
+    color: var(--white);
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.05em solid var(--yellow);
+    width: 35em;
+    margin-top: var(--sp-md);
+    margin-bottom: var(--sp-md);
+    resize: none;
+}
+
+.form-control::placeholder {
+    color: var(--white);
+    font-size: 1.5rem;    
+}
+
+.form-control:focus {
+    background-color: transparent;
+    color: var(--white);
+    border-bottom: 0.05em solid var(--yellow);
+    font-size: 1.5rem;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.select select option {
+    color: var(--white);
+    background-color: var(--grey_dark);
+}
+
+.boton {
+    background-color: transparent;
+    border: none;
+    width: 10em;
+    height: 3em;
+    font-size: 1.5rem;
+    color: var(--yellow);
+    transition: all .3s ease-in-out;
+}
+
+.boton:hover {
+    background-color: var(--yellow);
+    color: var(--grey_dark);
+}

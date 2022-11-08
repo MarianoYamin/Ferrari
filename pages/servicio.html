@@ -40,27 +40,77 @@
     <main>
         <section>
             <div class="container">
-                <h2>RESERVE SU SERVICIO</h2>
-                <article>
-                    <div>
-                        <p> <strong>Desde la tecnología hasta las prestaciones, todos los clientes Ferrari buscan excelencia en cada <br> uno de los ámbitos. Cuando hablamos de servicios de reparación o asistencia, cada Ferrari merece <br> un tratamiento exclusivo.</strong></p>
-                        <p>Déjalo en manos de tecnicos especializados oficiales.</p>
-                        <p>Rellena el formulario y nuestro personal especializado te contactará lo antes posible.</p>
+                <article class="info__servicio">
+                        <h2 class="title__servicio">RESERVE SU SERVICIO</h2>
+                        <p class="parrafo_1_servicio"><strong>Desde la tecnología hasta las prestaciones, todos los clientes Ferrari buscan excelencia en cada <br> uno de los ámbitos. Cuando hablamos de servicios de reparación o asistencia, cada Ferrari merece <br> un tratamiento exclusivo.</strong></p>
+                        <p class="parrafo_2_servicio">Déjalo en manos de tecnicos especializados oficiales.</p>
+                    <div class="box__img__servicio">
+                        <img class="img__servicio" src="../img/servicio_post_venta.jpg" alt="">
+                        <img class="img__servicio" src="../img/servicio_post_venta1.jpg" alt="">
                     </div>
-                    <div>
-                        <img src="../img/servicio_post_venta.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="../img/servicio_post_venta1.jpg" alt="">
-                    </div>
-                        <h4>SOLICITA TU SERVICIO A CONTINUACIÓN:</h4>
+                    <p class="parrafo_3_servicio">Rellena el siguiente formulario y nuestro personal especializado te contactará en breve.</p>
                 </article>
             </div>
         </section>
         <section>
-            <article>
-
-            </article>
+            <div class="container">
+                <article class="contacto__servicio">
+                    <form class="" action="" method="get">
+                        <div class="form-group select">
+                            <select class="form-control" name="localidad" id="localidad" required>
+                                <option value="seleccion">Seleccione su País o Region</option>
+                                <option value="ARG">Argentina</option>
+                                <option value="ESP">España</option>
+                                <option value="ITA">Italia</option>
+                                <option value="SUI">Suiza</option>
+                                <option value="FRA">Francia</option>
+                                <option value="POR">Portugal</option>
+                                <option value="ALE">Alemania</option>
+                                <option value="BEL">Belgica</option>
+                                <option value="ING">Inglaterra</option>
+                                <option value="HOL">Holanda</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Nombre*" required>
+                            <input class="form-control" type="text" name="apellido" id="apellido" placeholder="Apellido*" required>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="email" name="correo" id="correo" placeholder="Correo Electronico" required>                            
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="number" name="telefono" id="telefono" placeholder="Telefono" required>
+                        </div>
+                        <div class="form-group select">
+                            <select class="form-control" name="modelo" id="modelo" required>
+                                <option value="seleccion">Seleccione modelo del Ferrari</option>
+                                <option value="Ferrari_purosangue">Ferrari Purosangue</option>
+                                <option value="Ferrari_296_gts">Ferrari 296 gts</option>
+                                <option value="Ferrari_296_gtb">Ferrari 296 gtb</option>
+                                <option value="Ferrari_sf90_spider">Ferrari sf90 spider</option>
+                                <option value="Ferrari_sf90_stradale">Ferrari sf90 stradale</option>
+                                <option value="Ferrari_roma">Ferrari roma</option>
+                                <option value="Ferrari_812_competizione">Ferrari 812 competizione</option>
+                                <option value="Ferrari_812_competizione_a">Ferrari 812 competizione A</option>
+                                <option value="Ferrari_daytona_sp3">Ferrari daytona sp3</option>
+                                <option value="Ferrari_monza_sp1">Ferrari monza sp1</option>
+                                <option value="Ferrari_monza_sp2">Ferrari monza sp2</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="notas" id="notas" cols="30" rows="3" placeholder="Notas"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input class="checkbox" type="checkbox" name="terminos_condiciones" id="terminos_condiciones" required>
+                            <label class="control-label" for="">HE LEÍDO Y ACEPTO LOS TERMINOS GENERALES DEL USO DEL SITIO Y EL CODIGO DE CONDUCTA PARA USUARIOS REGISTRADOS</label>
+                        </div>
+                        <div class="form-group">
+                            <input class="btn btn-primary btn-lg boton" type="submit" value="ENVIAR">
+                        </div>
+                    </form>
+                </article>
         </section>
     </main>
     <footer>
