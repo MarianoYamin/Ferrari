@@ -123,6 +123,7 @@ header {
 
 .frases {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .frases__todas  {
@@ -141,6 +142,7 @@ header {
 
 .historia {
     display: flex;
+    flex-wrap: wrap;
     padding-top: var(--sp-xl);
 }
 
@@ -180,11 +182,13 @@ header {
 
  .footer {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 10em;
  }
 
  .newsletter {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
  }
@@ -195,6 +199,10 @@ header {
     color: var(--white);
     height: 2.5em;
     width: 15em;
+ }
+
+ .newsletter__correo::placeholder {
+    font-size: 1.2rem;
  }
 
  .newsletter__enviar {
@@ -260,6 +268,7 @@ header {
 
  .serie__estandar {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
  }
 
@@ -272,6 +281,7 @@ header {
 .serie__estandar__catalogo {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin-top: var(--sp-xl);
     padding-top: var(--sp-xl);
     padding-bottom: var(--sp-xl);
@@ -314,6 +324,7 @@ header {
 .serie__especial__iconica {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: var(--white);
     color: var(--grey_dark);
 }
@@ -321,6 +332,7 @@ header {
 .serie__especial__iconica__catalogo {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin-top: var(--sp-xl);
     padding-top: var(--sp-xl);
     padding-bottom: var(--sp-xl);
@@ -442,12 +454,6 @@ header {
     font-size: 1.5rem;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
-}
-
 .select select option {
     color: var(--white);
     background-color: var(--grey_dark);
@@ -466,4 +472,92 @@ input[type=number]::-webkit-outer-spin-button {
 .boton:hover {
     background-color: var(--yellow);
     color: var(--grey_dark);
+}
+
+/***PAGINA:CONATCTO***/
+
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10em;
+}
+
+.title__ubicacion {
+    padding-top: var(--sp-xl);
+    text-align: center;
+    font-size: var(--text-xl);
+}
+
+iframe {
+    width: 100%;
+    padding-bottom: var(--sp-xxl);
+}
+
+.contacto {
+    padding-bottom: var(--sp-xl);
+}
+
+.title__informacion {
+    padding-top: var(--sp-xl);
+    padding-bottom: 3em;
+    text-align: center;
+    font-size: var(--text-xl);
+    border-top: 0.05em solid var(--yellow);
+}
+
+.informacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15em;
+    border-bottom: 0.05em solid var(--yellow);
+}
+
+.informacion__datos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3em;
+}
+
+.informacion__horario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.iconos__info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.row__horarios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8em;
+    padding-bottom: var(--sp-xl);
+}
+
+.dias {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+
+.horas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
 }
