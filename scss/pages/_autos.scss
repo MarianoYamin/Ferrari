@@ -1,0 +1,87 @@
+/***PAGINA:AUTOS***/
+
+ 
+ /*SERIE ESTANDAR*/
+
+ .serie__estandar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
+
+ .title__series {
+    text-align: center;
+    margin-top: var(--sp-xl);
+    font-size: var(--text-lg);
+ }
+
+.serie__estandar__catalogo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: var(--sp-xl);
+    padding-top: var(--sp-xl);
+    padding-bottom: var(--sp-xl);
+    border-top: 0.05em solid var(--yellow);
+ }
+
+ .columna__1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 35em;
+    height: 15em;
+ }
+
+ .logo__autos {
+    padding-top: 10em;
+ }
+
+ .img__logo__autos {
+    width: 64em;
+    height: 8.5em;
+ }
+
+ .texto__autos {
+   padding-top: 7em;
+} 
+
+.texto__1 {
+    padding: 2rem;
+}
+
+.img__series__auto {
+    width: 57.2em;
+    height: 37.9em;
+    float: right;
+}
+
+.img__series__auto:hover {
+   transform: scale(1.2, 1.2);
+   transition: all 2s;
+}
+
+/*SERIE ESPECIAL E ICONICA*/
+
+.serie__especial__iconica {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--white);
+    color: var(--grey_dark);
+}
+
+.serie__especial__iconica__catalogo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: var(--sp-xl);
+    padding-top: var(--sp-xl);
+    padding-bottom: var(--sp-xl);
+    border-top: 0.05em solid var(--red);
+}
+
+.img__logo__autos__especial__iconica {
+    width: 44em;
+    height: 8.5em;
+}

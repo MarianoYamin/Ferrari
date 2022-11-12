@@ -1,0 +1,13 @@
+@import "./misc/variables";
+@import "./misc/normalize";
+
+@import "./partials/header";
+@import "./partials/footer";
+
+@import "./pages/index";
+@import "./pages/autos";
+@import "./pages/galeria";
+@import "./pages/servicio";
+@import "./pages/contacto";
+
+@import "./misc/mediaqueries";

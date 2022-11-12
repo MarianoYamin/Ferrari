@@ -1,0 +1,87 @@
+/***PAGINA:CONATCTO***/
+
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10em;
+}
+
+.title__ubicacion {
+    padding-top: var(--sp-xl);
+    text-align: center;
+    font-size: var(--text-xl);
+}
+
+iframe {
+    width: 100%;
+    padding-bottom: var(--sp-xxl);
+}
+
+.contacto {
+    padding-bottom: var(--sp-xl);
+}
+
+.title__informacion {
+    padding-top: var(--sp-xl);
+    padding-bottom: 3em;
+    text-align: center;
+    font-size: var(--text-xl);
+    border-top: 0.05em solid var(--yellow);
+}
+
+.informacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15em;
+    border-bottom: 0.05em solid var(--yellow);
+}
+
+.informacion__datos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3em;
+}
+
+.informacion__horario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.iconos__info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.row__horarios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8em;
+    padding-bottom: var(--sp-xl);
+}
+
+.dias {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+
+.horas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}

@@ -319,6 +319,11 @@ header {
     float: right;
 }
 
+.img__series__auto:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 2s;
+}
+
 /*SERIE ESPECIAL E ICONICA*/
 
 .serie__especial__iconica {
@@ -354,6 +359,16 @@ header {
 
 .img__galeria {
     padding-top: var(--sp-sm);
+}
+
+.img__galeria__1 {
+    width: 100%;
+    padding-top: var(--sp-sm);
+}
+
+.img__galeria__1:hover {
+    transform: scale(1.4, 1.4);
+    transition: all 2s;
 }
 
 .title__galeria {
@@ -407,6 +422,11 @@ header {
     width: 55em;
     height: 38em;
     padding: var(--sp-sm);
+}
+
+.img__servicio:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 2s;
 }
 
 .contacto__servicio {

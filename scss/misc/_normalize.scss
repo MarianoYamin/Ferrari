@@ -1,0 +1,76 @@
+/*Variables*/
+
+:root {
+    /*Palette*/
+
+    --grey_dark: #181818;
+    --grey: #2C2B27;
+    --red: #FF0000;
+    --yellow: #FFFF00;
+    --white: #FFFFFF;
+
+    /*Font-sizes*/
+
+    --text-xxl: 4.8em;
+    --text-xl: 3.6em;
+    --text-lg: 3.2em;
+    --text-md: 2.0em;
+    --text-sm: 1.0em;
+    --text-xs:  0.9em;
+
+    /*Spacings*/
+
+    --sp-xxl: 12rem;
+    --sp-xl: 8rem;
+    --sp-lg: 5rem;
+    --sp-md: 3.2rem;
+    --sp-sm: 1.6rem;
+    --sp-xs: 0.8rem;
+
+}
+
+/* NORMALIZE*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--white);
+    background-color: var(--grey);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white);
+    font-size: var(--text-md);
+}
+
+p {
+    font-size: 1.6em;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 450px;
+}

@@ -1,0 +1,58 @@
+/***PAGINA:HOME***/
+
+.frases {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.frases__todas  {
+    text-align: center;
+    font-size: var(--text-md);
+    font-style: oblique;
+    border-top: 0.05em solid var(--red);
+    margin-top: var(--sp-xl);
+    padding-top: var(--sp-xl);
+}
+
+.title__frases {
+    text-align: center;
+    padding-top: var(--sp-xl);
+}
+
+.historia {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: var(--sp-xl);
+}
+
+.title__historia {
+    text-align: center;
+    border-top: 0.05em solid var(--red);
+    margin: var(--sp-xl);
+    padding: var(--sp-xl);
+    font-size: var(--text-md);
+}
+
+.parrafo_1 {
+    text-align: center;
+    border-top: 0.05em solid var(--red);
+    margin: var(--sp-xl);
+    padding: var(--sp-xl);
+    font-size: var(--text-md);
+}
+
+.parrafo_2 {
+    text-align: center;
+    margin: var(--sp-xl);
+    padding: var(--sp-xl);
+    font-size: var(--text-md);
+}
+
+.parrafo_3 {
+    text-align: center;
+    padding-bottom: var(--sp-xl);
+    border-bottom: 0.05em solid var(--red);
+    margin: var(--sp-xl);
+    padding: var(--sp-xl);
+    font-size: var(--text-md);
+}

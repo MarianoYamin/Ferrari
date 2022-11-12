@@ -1,0 +1,26 @@
+/***PAGINA:GALERIA***/
+
+/*BOOTSTRAP DE LA PAGINA*/
+.container-fluid {
+    padding: var(--sp-xl);
+}
+
+.img__galeria {
+    padding-top: var(--sp-sm);
+}
+
+.img__galeria__1 {
+    width: 100%;
+    padding-top: var(--sp-sm);
+}
+
+.img__galeria__1:hover {
+    transform: scale(1.4, 1.4);
+    transition: all 2s;
+}
+
+.title__galeria {
+    text-align: center;
+    margin-top: var(--sp-xl);
+    font-size: var(--text-lg);
+ }
