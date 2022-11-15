@@ -3,34 +3,35 @@
 header {
     padding: var(--sp-sm);
     background-color: var(--grey_dark);
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+
+        .navbar__link {
+            min-width: 150px;
+            max-width: 150px;
+        }
+
+        .menu {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .menu__link {
+                padding: var(--sp-xs);
+                transition: all .3s ease-in-out;
+
+                &:hover {
+                    background-color: var(--white);
+                    color: var(--grey_dark);
+                }
+            }
+        }
+    }
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-}
-
-.navbar .navbar__link {
-    min-width: 150px;
-    max-width: 150px;
-}
-
-.navbar .menu {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.menu .menu__link {
-    padding: var(--sp-xs);
-    transition: all .3s ease-in-out;
-}
-
-.menu .menu__link:hover {
-    background-color: var(--white);
-    color: var(--grey_dark);
-}
 /***BANNER-DEFAULT TODAS LAS PAGINAS***/
 
 #banner {

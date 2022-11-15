@@ -1,87 +1,133 @@
-/***PAGINA:AUTOS***/
+ /***PAGINA:AUTOS***/
 
  
  /*SERIE ESTANDAR*/
 
  .serie__estandar {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
- }
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
 
- .title__series {
-    text-align: center;
-    margin-top: var(--sp-xl);
-    font-size: var(--text-lg);
- }
+   .title__series {
+      text-align: center;
+      margin-top: var(--sp-xl);
+      font-size: var(--text-lg);
+   }
 
-.serie__estandar__catalogo {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: var(--sp-xl);
-    padding-top: var(--sp-xl);
-    padding-bottom: var(--sp-xl);
-    border-top: 0.05em solid var(--yellow);
- }
+   .serie__estandar__catalogo {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: var(--sp-xl);
+      padding-top: var(--sp-xl);
+      padding-bottom: var(--sp-xl);
+      border-top: 0.05em solid var(--yellow);
 
- .columna__1 {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: 35em;
-    height: 15em;
- }
+      .columna__1 {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         gap: 0.5rem;
+         width: 35em;
+         height: 15em;
+         margin-bottom: 25em;
 
- .logo__autos {
-    padding-top: 10em;
- }
+         .logo__autos {
+            padding-top: 1em;
 
- .img__logo__autos {
-    width: 64em;
-    height: 8.5em;
- }
+            .img__logo__autos {
+               width: 64em;
+               height: 8.5em;
+            }
+         }
 
- .texto__autos {
-   padding-top: 7em;
-} 
+         .texto__autos {
+            padding-top: 7em;
 
-.texto__1 {
-    padding: 2rem;
-}
+            .texto__1 {
+               padding: 2rem;
+            }
+         } 
+      }
 
-.img__series__auto {
-    width: 57.2em;
-    height: 37.9em;
-    float: right;
-}
+      .img__autos {
 
-.img__series__auto:hover {
-   transform: scale(1.2, 1.2);
-   transition: all 2s;
+         .img__series__auto {
+            width: 57.2em;
+            height: 37.9em;
+
+            &:hover {
+               transform: scale(1.1, 1.1);
+               transition: all 2s;
+            }
+         }
+      }
+   }
 }
 
 /*SERIE ESPECIAL E ICONICA*/
 
 .serie__especial__iconica {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: var(--white);
-    color: var(--grey_dark);
-}
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   background-color: var(--white);
+   color: var(--grey_dark);
 
-.serie__especial__iconica__catalogo {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: var(--sp-xl);
-    padding-top: var(--sp-xl);
-    padding-bottom: var(--sp-xl);
-    border-top: 0.05em solid var(--red);
-}
+   .title__series {
+      text-align: center;
+      margin-top: var(--sp-xl);
+      font-size: var(--text-lg);
+   }
 
-.img__logo__autos__especial__iconica {
-    width: 44em;
-    height: 8.5em;
+   .serie__especial__iconica__catalogo {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: var(--sp-xl);
+      padding-top: var(--sp-xl);
+      padding-bottom: var(--sp-xl);
+      border-top: 0.05em solid var(--red);
+
+      .columna__1 {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         gap: 0.5rem;
+         width: 35em;
+         height: 15em;
+         margin-bottom: 25em;
+
+         .logo__autos {
+            padding-top: 1em;
+
+            .img__logo__autos__especial__iconica {
+               width: 44em;
+               height: 8.5em;
+            }
+         }  
+      .texto__autos {
+         padding-top: 7em;
+      
+         .texto__1 {
+            padding: 2rem;
+         }
+      } 
+   }
+
+   .img__autos {
+
+      .img__series__auto {
+         width: 57.2em;
+         height: 37.9em;
+      
+         &:hover {
+            transform: scale(1.1, 1.1);
+            transition: all 2s;
+            }
+         }
+      }
+   }
 }

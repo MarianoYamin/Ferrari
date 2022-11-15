@@ -268,8 +268,8 @@ header {
 
  .serie__estandar {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
  }
 
  .title__series {
@@ -280,7 +280,8 @@ header {
 
 .serie__estandar__catalogo {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: var(--sp-xl);
     padding-top: var(--sp-xl);
@@ -290,14 +291,16 @@ header {
 
  .columna__1 {
     display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     width: 35em;
     height: 15em;
+    margin-bottom: 25em;
  }
 
  .logo__autos {
-    padding-top: 10em;
+    padding-top: 1em;
  }
 
  .img__logo__autos {
@@ -306,7 +309,7 @@ header {
  }
 
  .texto__autos {
-   padding-top: 7em;
+    padding-top: 7em;
 } 
 
 .texto__1 {
@@ -316,11 +319,10 @@ header {
 .img__series__auto {
     width: 57.2em;
     height: 37.9em;
-    float: right;
 }
 
 .img__series__auto:hover {
-    transform: scale(1.2, 1.2);
+    transform: scale(1.1, 1.1);
     transition: all 2s;
 }
 
@@ -336,7 +338,8 @@ header {
 
 .serie__especial__iconica__catalogo {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: var(--sp-xl);
     padding-top: var(--sp-xl);
